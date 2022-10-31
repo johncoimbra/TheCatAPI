@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		525D5A41290F4B920042A924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A40290F4B920042A924 /* AppDelegate.swift */; };
 		525D5A43290F4B920042A924 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A42290F4B920042A924 /* SceneDelegate.swift */; };
-		525D5A45290F4B920042A924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A44290F4B920042A924 /* ViewController.swift */; };
+		525D5A45290F4B920042A924 /* GatitosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A44290F4B920042A924 /* GatitosViewController.swift */; };
 		525D5A4A290F4B930042A924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525D5A49290F4B930042A924 /* Assets.xcassets */; };
 		525D5A4D290F4B930042A924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525D5A4B290F4B930042A924 /* LaunchScreen.storyboard */; };
 		525D5A59290F4CB00042A924 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A58290F4CB00042A924 /* CodeView.swift */; };
@@ -23,7 +23,7 @@
 		525D5A3D290F4B920042A924 /* TheCatAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCatAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525D5A40290F4B920042A924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525D5A42290F4B920042A924 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		525D5A44290F4B920042A924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		525D5A44290F4B920042A924 /* GatitosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatitosViewController.swift; sourceTree = "<group>"; };
 		525D5A49290F4B930042A924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		525D5A4C290F4B930042A924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525D5A4E290F4B930042A924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		525D5A55290F4BB10042A924 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				525D5A44290F4B920042A924 /* ViewController.swift */,
+				525D5A44290F4B920042A924 /* GatitosViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,7 +184,7 @@
 				525D5A5D290F4DB00042A924 /* GatitosViewCell.swift in Sources */,
 				525D5A5B290F4CCE0042A924 /* UIView+AutoLayout.swift in Sources */,
 				525D5A5F290F4E790042A924 /* Apply.swift in Sources */,
-				525D5A45290F4B920042A924 /* ViewController.swift in Sources */,
+				525D5A45290F4B920042A924 /* GatitosViewController.swift in Sources */,
 				525D5A41290F4B920042A924 /* AppDelegate.swift in Sources */,
 				525D5A43290F4B920042A924 /* SceneDelegate.swift in Sources */,
 				525D5A59290F4CB00042A924 /* CodeView.swift in Sources */,
