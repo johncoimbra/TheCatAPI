@@ -38,6 +38,8 @@ extension GatitosViewCell: CodeView {
     }
     
     func setupAdditionalConfiguration() {
-        self.backgroundColor = .white
+        self.backgroundColor = .systemGray3
+        self.layer.cornerRadius = 4
+        
     }
 }

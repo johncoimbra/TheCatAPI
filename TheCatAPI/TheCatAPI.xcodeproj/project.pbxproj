@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524CA4E42912EDCA00916019 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CA4E32912EDCA00916019 /* Constants.swift */; };
+		524CA4E72913448900916019 /* GatitosDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CA4E62913448800916019 /* GatitosDetailsViewController.swift */; };
 		525D5A41290F4B920042A924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A40290F4B920042A924 /* AppDelegate.swift */; };
 		525D5A43290F4B920042A924 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A42290F4B920042A924 /* SceneDelegate.swift */; };
 		525D5A45290F4B920042A924 /* GatitosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A44290F4B920042A924 /* GatitosViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		524CA4E32912EDCA00916019 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		524CA4E62913448800916019 /* GatitosDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatitosDetailsViewController.swift; sourceTree = "<group>"; };
 		525D5A3D290F4B920042A924 /* TheCatAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCatAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525D5A40290F4B920042A924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525D5A42290F4B920042A924 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				525D5A44290F4B920042A924 /* GatitosViewController.swift */,
+				524CA4E62913448800916019 /* GatitosDetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 		525D5A56290F4BB90042A924 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				524CA4E32912EDCA00916019 /* Constants.swift */,
 				525D5A40290F4B920042A924 /* AppDelegate.swift */,
 				525D5A42290F4B920042A924 /* SceneDelegate.swift */,
 				525D5A49290F4B930042A924 /* Assets.xcassets */,
@@ -186,9 +192,11 @@
 				525D5A5F290F4E790042A924 /* Apply.swift in Sources */,
 				525D5A45290F4B920042A924 /* GatitosViewController.swift in Sources */,
 				525D5A41290F4B920042A924 /* AppDelegate.swift in Sources */,
+				524CA4E72913448900916019 /* GatitosDetailsViewController.swift in Sources */,
 				525D5A43290F4B920042A924 /* SceneDelegate.swift in Sources */,
 				525D5A59290F4CB00042A924 /* CodeView.swift in Sources */,
 				525D5A61290F4F640042A924 /* GatitosDetailsVIew.swift in Sources */,
+				524CA4E42912EDCA00916019 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
