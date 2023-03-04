@@ -16,7 +16,7 @@ class GatitosDetailsVIew: UIView {
         $0.showsVerticalScrollIndicator = false
     }
     
-    private var imageBreed = UIImageView().apply {
+    var imageBreed = UIImageView().apply {
         $0.image = UIImage(systemName: "house")
         $0.contentMode = .scaleAspectFit
         $0.clipsToBounds = true
@@ -29,7 +29,7 @@ class GatitosDetailsVIew: UIView {
         $0.textAlignment = .center
     }
     
-    private var breedLabel = UILabel().apply {
+    var breedLabel = UILabel().apply {
         $0.text = "Persa"
         $0.font = UIFont.systemFont(ofSize: 20, weight: .regular)
         $0.textAlignment = .center
@@ -41,7 +41,7 @@ class GatitosDetailsVIew: UIView {
         $0.textAlignment = .center
     }
     
-    private var descriptionBreedLabelTwo = UILabel().apply {
+    var descriptionBreedLabelTwo = UILabel().apply {
         $0.text = Constants().DESCRIPTION
         $0.font = UIFont.systemFont(ofSize: 20, weight: .regular)
         $0.textAlignment = .justified
@@ -55,7 +55,7 @@ class GatitosDetailsVIew: UIView {
         $0.textAlignment = .center
     }
     
-    private var temperamentLabel = UILabel().apply {
+    var temperamentLabel = UILabel().apply {
         $0.text = Constants().TEMPERAMENT
         $0.font = UIFont.systemFont(ofSize: 20, weight: .regular)
         $0.textAlignment = .justified

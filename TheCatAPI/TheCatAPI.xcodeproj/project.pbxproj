@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52172E192924102B00964699 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 52172E182924102B00964699 /* Alamofire */; };
+		52172E1C2924103C00964699 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 52172E1B2924103C00964699 /* Kingfisher */; };
+		52172E1E292416D000964699 /* GatitosDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52172E1D292416D000964699 /* GatitosDetailsViewModel.swift */; };
 		524CA4E42912EDCA00916019 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CA4E32912EDCA00916019 /* Constants.swift */; };
 		524CA4E72913448900916019 /* GatitosDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CA4E62913448800916019 /* GatitosDetailsViewController.swift */; };
-		525300F329187C680099F85E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525300F229187C680099F85E /* Session.swift */; };
-		525300F529187D300099F85E /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525300F429187D300099F85E /* Connectivity.swift */; };
-		525300F729187D700099F85E /* WsStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525300F629187D700099F85E /* WsStatus.swift */; };
-		525300F929187DB00099F85E /* WsTypeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525300F829187DB00099F85E /* WsTypeService.swift */; };
-		525300FB29187DE40099F85E /* URLBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525300FA29187DE40099F85E /* URLBase.swift */; };
-		525300FD29187E1C0099F85E /* Ws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525300FC29187E1C0099F85E /* Ws.swift */; };
-		525300FF29187E870099F85E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525300FE29187E870099F85E /* Service.swift */; };
 		525D5A41290F4B920042A924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A40290F4B920042A924 /* AppDelegate.swift */; };
 		525D5A43290F4B920042A924 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A42290F4B920042A924 /* SceneDelegate.swift */; };
 		525D5A45290F4B920042A924 /* GatitosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A44290F4B920042A924 /* GatitosViewController.swift */; };
@@ -26,20 +22,17 @@
 		525D5A5D290F4DB00042A924 /* GatitosViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A5C290F4DB00042A924 /* GatitosViewCell.swift */; };
 		525D5A5F290F4E790042A924 /* Apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A5E290F4E790042A924 /* Apply.swift */; };
 		525D5A61290F4F640042A924 /* GatitosDetailsVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D5A60290F4F640042A924 /* GatitosDetailsVIew.swift */; };
-		529C086629134D32005B4DAE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 529C086529134D32005B4DAE /* Alamofire */; };
-		529C086929134D77005B4DAE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 529C086829134D77005B4DAE /* Kingfisher */; };
+		527EC71D292404270003272A /* GatitosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EC71C292404270003272A /* GatitosViewModel.swift */; };
+		527EC71F292404940003272A /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EC71E292404940003272A /* ViewModelProtocol.swift */; };
+		527EC7212924050F0003272A /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EC7202924050F0003272A /* Observable.swift */; };
+		5298D6BB291F42AA00133B2D /* GatitosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298D6BA291F42AA00133B2D /* GatitosModel.swift */; };
+		5298D6BD291F452600133B2D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298D6BC291F452600133B2D /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52172E1D292416D000964699 /* GatitosDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatitosDetailsViewModel.swift; sourceTree = "<group>"; };
 		524CA4E32912EDCA00916019 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		524CA4E62913448800916019 /* GatitosDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatitosDetailsViewController.swift; sourceTree = "<group>"; };
-		525300F229187C680099F85E /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		525300F429187D300099F85E /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
-		525300F629187D700099F85E /* WsStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WsStatus.swift; sourceTree = "<group>"; };
-		525300F829187DB00099F85E /* WsTypeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WsTypeService.swift; sourceTree = "<group>"; };
-		525300FA29187DE40099F85E /* URLBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBase.swift; sourceTree = "<group>"; };
-		525300FC29187E1C0099F85E /* Ws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ws.swift; sourceTree = "<group>"; };
-		525300FE29187E870099F85E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		525D5A3D290F4B920042A924 /* TheCatAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCatAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525D5A40290F4B920042A924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525D5A42290F4B920042A924 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +45,11 @@
 		525D5A5C290F4DB00042A924 /* GatitosViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatitosViewCell.swift; sourceTree = "<group>"; };
 		525D5A5E290F4E790042A924 /* Apply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apply.swift; sourceTree = "<group>"; };
 		525D5A60290F4F640042A924 /* GatitosDetailsVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatitosDetailsVIew.swift; sourceTree = "<group>"; };
+		527EC71C292404270003272A /* GatitosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatitosViewModel.swift; sourceTree = "<group>"; };
+		527EC71E292404940003272A /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		527EC7202924050F0003272A /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		5298D6BA291F42AA00133B2D /* GatitosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatitosModel.swift; sourceTree = "<group>"; };
+		5298D6BC291F452600133B2D /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,54 +57,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				529C086929134D77005B4DAE /* Kingfisher in Frameworks */,
-				529C086629134D32005B4DAE /* Alamofire in Frameworks */,
+				52172E1C2924103C00964699 /* Kingfisher in Frameworks */,
+				52172E192924102B00964699 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		525300ED29187C080099F85E /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				525300FE29187E870099F85E /* Service.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		525300EE29187C2D0099F85E /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				525300F029187C4D0099F85E /* Internet */,
-				525300EF29187C450099F85E /* Manager */,
-				525300F629187D700099F85E /* WsStatus.swift */,
-				525300F829187DB00099F85E /* WsTypeService.swift */,
-				525300FA29187DE40099F85E /* URLBase.swift */,
-				525300FC29187E1C0099F85E /* Ws.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		525300EF29187C450099F85E /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				525300F229187C680099F85E /* Session.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		525300F029187C4D0099F85E /* Internet */ = {
-			isa = PBXGroup;
-			children = (
-				525300F429187D300099F85E /* Connectivity.swift */,
-			);
-			path = Internet;
-			sourceTree = "<group>";
-		};
 		5253010029187F180099F85E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5298D6BA291F42AA00133B2D /* GatitosModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,12 +92,12 @@
 		525D5A3F290F4B920042A924 /* TheCatAPI */ = {
 			isa = PBXGroup;
 			children = (
+				527EC71B2924040F0003272A /* ViewModel */,
 				5253010029187F180099F85E /* Model */,
 				525D5A55290F4BB10042A924 /* Controller */,
 				525D5A54290F4BA30042A924 /* View */,
-				525300EE29187C2D0099F85E /* Network */,
-				525300ED29187C080099F85E /* Services */,
 				525D5A57290F4C7B0042A924 /* Extensions */,
+				5298D6B9291F3DBE00133B2D /* Service */,
 				525D5A56290F4BB90042A924 /* Utils */,
 			);
 			path = TheCatAPI;
@@ -162,7 +124,6 @@
 		525D5A56290F4BB90042A924 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				524CA4E32912EDCA00916019 /* Constants.swift */,
 				525D5A40290F4B920042A924 /* AppDelegate.swift */,
 				525D5A42290F4B920042A924 /* SceneDelegate.swift */,
 				525D5A49290F4B930042A924 /* Assets.xcassets */,
@@ -175,11 +136,31 @@
 		525D5A57290F4C7B0042A924 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				524CA4E32912EDCA00916019 /* Constants.swift */,
 				525D5A58290F4CB00042A924 /* CodeView.swift */,
 				525D5A5A290F4CCE0042A924 /* UIView+AutoLayout.swift */,
 				525D5A5E290F4E790042A924 /* Apply.swift */,
+				527EC7202924050F0003272A /* Observable.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		527EC71B2924040F0003272A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				527EC71C292404270003272A /* GatitosViewModel.swift */,
+				527EC71E292404940003272A /* ViewModelProtocol.swift */,
+				52172E1D292416D000964699 /* GatitosDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5298D6B9291F3DBE00133B2D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5298D6BC291F452600133B2D /* Service.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +180,8 @@
 			);
 			name = TheCatAPI;
 			packageProductDependencies = (
-				529C086529134D32005B4DAE /* Alamofire */,
-				529C086829134D77005B4DAE /* Kingfisher */,
+				52172E182924102B00964699 /* Alamofire */,
+				52172E1B2924103C00964699 /* Kingfisher */,
 			);
 			productName = TheCatAPI;
 			productReference = 525D5A3D290F4B920042A924 /* TheCatAPI.app */;
@@ -231,8 +212,8 @@
 			);
 			mainGroup = 525D5A34290F4B920042A924;
 			packageReferences = (
-				529C086429134D32005B4DAE /* XCRemoteSwiftPackageReference "Alamofire" */,
-				529C086729134D77005B4DAE /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				52172E172924102B00964699 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				52172E1A2924103C00964699 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 525D5A3E290F4B920042A924 /* Products */;
 			projectDirPath = "";
@@ -260,21 +241,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525300FB29187DE40099F85E /* URLBase.swift in Sources */,
 				525D5A5D290F4DB00042A924 /* GatitosViewCell.swift in Sources */,
+				527EC7212924050F0003272A /* Observable.swift in Sources */,
 				525D5A5B290F4CCE0042A924 /* UIView+AutoLayout.swift in Sources */,
 				525D5A5F290F4E790042A924 /* Apply.swift in Sources */,
 				525D5A45290F4B920042A924 /* GatitosViewController.swift in Sources */,
+				52172E1E292416D000964699 /* GatitosDetailsViewModel.swift in Sources */,
+				527EC71F292404940003272A /* ViewModelProtocol.swift in Sources */,
 				525D5A41290F4B920042A924 /* AppDelegate.swift in Sources */,
+				5298D6BD291F452600133B2D /* Service.swift in Sources */,
+				527EC71D292404270003272A /* GatitosViewModel.swift in Sources */,
 				524CA4E72913448900916019 /* GatitosDetailsViewController.swift in Sources */,
 				525D5A43290F4B920042A924 /* SceneDelegate.swift in Sources */,
-				525300F329187C680099F85E /* Session.swift in Sources */,
-				525300F729187D700099F85E /* WsStatus.swift in Sources */,
-				525300F529187D300099F85E /* Connectivity.swift in Sources */,
-				525300FF29187E870099F85E /* Service.swift in Sources */,
 				525D5A59290F4CB00042A924 /* CodeView.swift in Sources */,
-				525300F929187DB00099F85E /* WsTypeService.swift in Sources */,
-				525300FD29187E1C0099F85E /* Ws.swift in Sources */,
+				5298D6BB291F42AA00133B2D /* GatitosModel.swift in Sources */,
 				525D5A61290F4F640042A924 /* GatitosDetailsVIew.swift in Sources */,
 				524CA4E42912EDCA00916019 /* Constants.swift in Sources */,
 			);
@@ -344,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -398,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -419,8 +399,9 @@
 				INFOPLIST_FILE = TheCatAPI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,9 +409,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = johncoimbra.TheCatAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,8 +429,9 @@
 				INFOPLIST_FILE = TheCatAPI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,9 +439,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = johncoimbra.TheCatAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,7 +472,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		529C086429134D32005B4DAE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		52172E172924102B00964699 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -492,7 +480,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		529C086729134D77005B4DAE /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		52172E1A2924103C00964699 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -503,14 +491,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		529C086529134D32005B4DAE /* Alamofire */ = {
+		52172E182924102B00964699 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 529C086429134D32005B4DAE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 52172E172924102B00964699 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		529C086829134D77005B4DAE /* Kingfisher */ = {
+		52172E1B2924103C00964699 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 529C086729134D77005B4DAE /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			package = 52172E1A2924103C00964699 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */

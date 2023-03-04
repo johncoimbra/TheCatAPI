@@ -32,14 +32,13 @@ extension GatitosViewCell: CodeView {
     func buildViewHierarchy() {
         addSubview(label)
     }
-    
+
     func setupConstraints() {
         label.center(inView: self)
     }
-    
+
     func setupAdditionalConfiguration() {
         self.backgroundColor = .systemGray3
         self.layer.cornerRadius = 4
-        
     }
 }

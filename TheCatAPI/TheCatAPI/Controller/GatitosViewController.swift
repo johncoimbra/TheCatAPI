@@ -10,6 +10,8 @@ import UIKit
 class GatitosViewController: UIViewController {
     
     // MARK: - Properties
+    let viewModel: GatitosViewModelProtocol
+    
     // translateMask setado com falso Permite ajustar constraints manualmente
     private let tableView = UITableView(translateMask: false).apply {
         $0.separatorStyle = .none // Seperador de Linhas, neste caso, náo temos
@@ -23,6 +25,27 @@ class GatitosViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        setupBind()
+    }
+    
+    // Inicializa a ViewModel quando essa controller for chamada
+    init(viewModel: GatitosViewModelProtocol) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    // MARK: - Helpers
+    func setupBind() {
+        viewModel.breedsArray.bind { breeds in
+            self.tableView.reloadData()
+        }
     }
 }
 
@@ -61,7 +84,7 @@ extension GatitosViewController: UITableViewDelegate, UITableViewDataSource {
     
     // Numero de linhas dentro da Seção
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return viewModel.breedsArray.value.count
     }
     
     // Altura da célula
@@ -91,16 +114,18 @@ extension GatitosViewController: UITableViewDelegate, UITableViewDataSource {
         // ---------------------------------------------------------------------------------
     }
     
+    // tabbleView sendo configurada para se comportar como a celula que criamos
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "GatitosViewCell", for: indexPath) as! GatitosViewCell
-        cell.label.text = "John"
+        cell.label.text = viewModel.breedsArray.value[indexPath.row].name
         return cell
     }
     
     // Configura a função do clique das células.
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let controller = GatitosDetailsViewController()
+        let object = viewModel.breedsArray.value[indexPath.row]
+        let viewModel = GatitosDetailsViewModel(object: object)
+        let controller = GatitosDetailsViewController(viewModel: viewModel)
         navigationController?.pushViewController(controller, animated: true)
     }
 }
-
